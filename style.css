@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.add-btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.task-item {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 3px solid #4CAF50;
+}
+
+.task-item h3 {
+    margin: 0 0 5px 0;
+}
+
+.task-item p {
+    margin: 5px 0;
+}
